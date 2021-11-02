@@ -26,7 +26,6 @@
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
 <script>
-    // 站点统计
     var _hmt = _hmt || [];
     (function () {
         var hm = document.createElement("script");
@@ -35,7 +34,6 @@
         s.parentNode.insertBefore(hm, s);
     })();
 
-    // 添加密码认证
     function password() {
         var testV = 1;
         var pass1 = prompt('请输入Token:', '');
@@ -43,7 +41,7 @@
         while (testV < 3) {
             if (!pass1)
                 history.go(-1);
-            if (pass1 == "haha" || pass1 == "dontLookAtMe") {
+            if (pass1 == "hah" || pass1 == "dontLookAtMe") {
                 alert('认证通过!');
                 break;
             }
