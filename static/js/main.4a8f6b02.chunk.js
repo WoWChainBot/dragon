@@ -77,7 +77,7 @@
             }), t
         }
 
-        var je = "https://market.binaryx.pro/getSales?page=1&page_size=99999&status=selling&name=&sort=time&direction=desc&career=&value_attr=&start_value=&end_value=&pay_addr=",
+        var je = "https://market.binaryx.pro/getSales?page=1&page_size=4999&status=selling&name=&sort=time&direction=desc&career=&value_attr=&start_value=&end_value=&pay_addr=",
             ve = "0xaF9A274c9668d68322B0dcD9043D79Cd1eBd41b3", Me = "0x22F3E436dF132791140571FC985Eb17Ab1846494",
             Oe = "0xC6dB06fF6e97a6Dc4304f7615CdD392a9cF13F44", Ae = "0xF31913a9C8EFE7cE7F08A1c08757C166b572a937",
             ke = "0xfA65a5751ef6079C1022Aa10b9163d7A2281360A", _e = "0x480d503B12ae928e8DcCd820CE45B2f6F39Ad598",
